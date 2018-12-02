@@ -31,9 +31,13 @@ li {
   padding-bottom: 0.5rem;
 }
 
+li {
+  list-style: none;
+}
+
 a {
   font-weight: bold;
-  color: white;
+  color: #e57300;
   text-decoration: none;
   background: #333;
 }
