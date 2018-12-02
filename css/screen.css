@@ -28,6 +28,21 @@ p,
 li {
   color: white;
   opacity: 0.9;
+  padding-bottom: 0.5rem;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background: #333;
+}
+
+a:hover {
+  font-weight: bold;
+  color: white;
+  background: #e57300;
+  font-size: 2rem;
 }
 
 h1,
