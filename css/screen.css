@@ -3,7 +3,7 @@
 body {
   font-family: "Raleway", sans-serif;
   height: 100%;
-  background-image: url("/css/Background.jpg");
+  background-image: url("../images/Background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center/cover;
