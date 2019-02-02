@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,100,400");
-
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
@@ -117,7 +117,7 @@ ul {
   left: 0;
 }
 
-#section::after {
+#section_2::after {
   background-color: black;
   content: "";
   display: block;
@@ -163,8 +163,8 @@ ul {
   right: 30px;
   border: none;
   outline: none;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
@@ -172,3 +172,33 @@ ul {
   opacity: 0.9;
   z-index: 100;
 }
+
+/* SECTION 3 */
+
+#section_3 {
+  height: 30vh;
+  position: relative;
+  background: #000;
+}
+
+.about {
+  padding: 3px;
+  color: white;
+}
+.about p {
+  margin-bottom: 0;
+}
+
+.seperator {
+  height: 100%;
+  width: 15px;
+  background: yellow;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+}
+
+/* .new {
+  background: whitesmoke;
+} */
