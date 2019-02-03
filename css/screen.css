@@ -86,7 +86,7 @@ ul {
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-image: url("/Users/seraphineyoung/Documents/portolio/css/images/background2.jpeg");
+  background-image: url("images/background2.jpeg");
   background-position: center center;
   background-size: cover;
   align-items: center;
