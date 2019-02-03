@@ -245,10 +245,10 @@ ul {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .portfolio {
-    top: 6%;
+    top: 15%;
   }
 
   #h2_style {
