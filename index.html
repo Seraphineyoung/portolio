@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Welcome to my site</title>
-    <link rel="stylesheet" href="css/reset.css" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
     <link href="css/screen.css" rel="stylesheet" />
   </head>
   <body>
@@ -25,10 +31,10 @@
             <a href="#section_2" class="btn btn-outline-secondary">WORK</a>
           </li>
           <li>
-            <a href="#section_3" class="btn btn-outline-secondary ">ABOUT</a>
+            <a href="#section" class="btn btn-outline-secondary ">ABOUT</a>
           </li>
           <li>
-            <a href="#section_4" class="btn btn-outline-secondary">CONTACT</a>
+            <a href="#section_3" class="btn btn-outline-secondary">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -37,6 +43,12 @@
     <section id="section_2">
       <div class="portfolio">
         <h2><strong id="h2_style">Portfolio</strong></h2>
+        <h3>
+          <strong id="h3_style">
+            Python, Javascript, Jquery, React, Bootstrap, Flask, HTML5, CSS and
+            SQL</strong
+          >
+        </h3>
         <ul>
           <li>
             <a href="https://application-process.codeyourfuture.io/"
@@ -68,25 +80,28 @@
       </div>
     </section>
 
-    <section id="section_3">
-      <div class="row ">
-        <div class="col sec3">
-          <div class="about text-center ">
-            <p><strong id="">Tech Stack</strong></p>
-            <p>Python,Javascript</p>
-            <p>Jquery,Bootstrap</p>
-            <p>Flask,React</p>
-            <p>CSS and HTML</p>
-            <p>SQL</p>
-          </div>
+    <section id="section_3" class="text-center my_footer">
+      <p><strong>Contact</strong></p>
+      <div class="row  ">
+        <div class="col-3">
+          <a href="https://twitter.com/Inuma1?s=09" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </div>
-
-        <div class="seperator"></div>
-
-        <div class="col new">
-          <div class="contact  text-center">
-            <p><strong id="">Contact</strong></p>
-          </div>
+        <div class=" col"><div class="seperator"></div></div>
+        <div class="col-3">
+          <a
+            href="https://www.linkedin.com/in/seraphine-young-23290158/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class=" col"><div class="seperator"></div></div>
+        <div class="col-3">
+          <a href="https://github.com/Seraphineyoung" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
         </div>
       </div>
     </section>

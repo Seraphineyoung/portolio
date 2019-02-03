@@ -156,10 +156,16 @@ ul {
   color: white;
 }
 
+#h3_style {
+  font-size: 2rem;
+  color: yellow;
+  font-family: "Gochi+Hand";
+}
+
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 7px;
   right: 30px;
   border: none;
   outline: none;
@@ -174,24 +180,22 @@ ul {
 }
 
 /* SECTION 3 */
-
 #section_3 {
   height: 30vh;
   position: relative;
   background: #000;
+  opacity: 100;
 }
 
-.about {
+.my_footer {
   padding: 3px;
   color: white;
-}
-.about p {
-  margin-bottom: 0;
+  font-size: 3rem;
 }
 
 .seperator {
   height: 100%;
-  width: 15px;
+  width: 10px;
   background: yellow;
   top: 0;
   bottom: 0;
@@ -199,6 +203,43 @@ ul {
   left: 50%;
 }
 
-/* .new {
-  background: whitesmoke;
-} */
+.row {
+  margin: none;
+  height: 60%;
+}
+
+.fa-linkedin-in {
+  color: yellow;
+}
+
+.fa-github-square:before,
+.fa-twitter:before {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .portfolio {
+    font-size: 2rem;
+  }
+  .my_footer {
+    font-size: 4rem;
+  }
+
+  #h3_style {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+
+  .btn:hover {
+    background: transparent;
+    border-color: white;
+    font-size: 2.5rem;
+    padding: 20px;
+    font-weight: 500;
+  }
+}
