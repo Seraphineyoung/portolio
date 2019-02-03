@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #ccc;
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ h1:before {
 .home_container {
   height: 100vh;
   width: 100vw;
-  background-image: url("/Users/seraphineyoung/Documents/portolio/css/images/background.gif");
+  background-image: url("images/background.gif");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -157,7 +157,6 @@ ul {
 }
 
 #h3_style {
-  font-size: 2rem;
   color: yellow;
   font-family: "Gochi+Hand";
 }
